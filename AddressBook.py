@@ -5,10 +5,9 @@ Author: Travis Barnes, 18 January 2016
 Bridge functions to connect gui and database. 
 """
 
+
 import sys
-
 sys.path.insert(0, 'GUI')
-
 import tkinter as Tk
 import db
 import new
@@ -21,7 +20,6 @@ def get_contact(contact):
     contact -- First and Last name of a contact entry
     """
     entry = []
-
     try:
         if contact.split()[1]:
             entry.append(contact.split()[0])
