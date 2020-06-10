@@ -6,10 +6,7 @@ Authors: Austin Gheen, Travis Barnes
 Window to displays developer and application information.
 """
 import tkinter as Tk
-
-
 class About_Window(object):
-
     def __init__(self, master):
         top = self.top = Tk.Toplevel(master)
         self.master = master
